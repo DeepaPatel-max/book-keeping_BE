@@ -13,6 +13,9 @@ const UserSchema = new mongoose.Schema({
   password: {
     type: String,
   },
+  
+    timestamps:true
+  
 });
 
 //Popuplating this field of books to user s
